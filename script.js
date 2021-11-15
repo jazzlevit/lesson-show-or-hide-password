@@ -10,4 +10,16 @@
 
 // Jquery
 
+$('.bi').click(function (event) {
+
+    // change input type
+    const input = $(this).parent().find('input');
+    const currentType = input.attr('type');
+
+    input.attr('type', currentType === 'text' ? 'password' : 'text');
+
+    // Change icon style
+    $(this).toggleClass('bi-eye-slash-fill')
+});
+
 // VanillaJs
