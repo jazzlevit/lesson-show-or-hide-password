@@ -1,6 +1,6 @@
 # Lesson: show/hide password on input form
 
-##Acceptance criteria:
+## Acceptance criteria:
 - Please apply toggle action by clicking on by input's icon
 - you don't have to change anything in html
 - please finish needed js in file ./script.js
